@@ -1,0 +1,149 @@
+body {
+    background-color: skyblue;
+    
+  }
+
+
+.wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin: 100px;
+    margin-left: 600px;
+}
+
+.head {
+    width: 150px;
+    height: 150px;
+    background-color: purple;
+    border: solid 18px gray;
+    border-radius: 150px;
+    position: relative;
+    animation:  movehead 5s ease-in-out 2s infinite alternate;
+    z-index: 100; 
+    animation:  movehead 5s ease-in-out 2s infinite alternate;
+  }
+  @keyframes movehead {
+    from {top:0;}
+    to {top:40px}
+  }
+
+  .lefteyebrow{
+    width: 40px;
+  height: 3px;
+  border: solid 1px black;
+    background-color: black;
+    border-radius: 3px;
+    position: relative; 
+    top: 40px;
+    left: 20px;
+    transform: rotate(20deg)
+  }
+
+  .eyebrow{
+    width: 40px;
+  height: 3px;
+  border: solid 1px black;
+    background-color: black;
+    border-radius: 3px;
+    position: relative; 
+    left: 65px;
+    top: -25px;
+    transform: rotate(-40deg)
+  }
+ 
+.lefteye{ 
+    width:40px;
+    height: 20px;
+    border: solid 5px black;
+      border-radius: 5px;
+      position: relative; 
+      left: 10px;
+      top: 55px;
+      
+    }
+    .righteye{ 
+        width:40px;
+        height: 20px;
+        border: solid 5px black;
+          border-radius: 5px;
+          position: relative; 
+          left: 85px;
+          top: 25px;
+        }
+
+        .innerright{
+            width: 25px;
+            height: 8px;
+            border: solid 4px blue;
+              background-color: white;
+              border-radius: 5px;
+              margin: 3px;
+              position: relative; 
+        }
+
+        .innerleft{
+            width: 25px;
+            height: 8px;
+            border: solid 4px blue;
+              background-color: white;
+              border-radius: 5px;
+              margin: 3px;
+           
+              position: relative; 
+        }
+
+
+        .mouth{
+            width: 100px;
+          height: 35px;
+          border: solid 5px blue;
+            background-color: white;
+            border-radius:  50px;
+            position: relative;
+            top: 35px;
+            left: 15px;
+           animation: eyegold 5s ease-in-out 3s infinite alternate, movemouth 5s ease-in-out 5s infinite alternate;
+          }
+
+          @keyframes movemouth {
+            from {left: 10;}
+            to {left: 10px;}
+          from {top:40px;}
+          to {top:25px}
+        }
+
+        .torso{
+  
+            width: 170px;
+            height: 300px;
+            background-color: purple;
+            border: solid 20px gray;
+            border-radius: 80px;
+          position: relative;
+          top: -60px;
+          z-index: -20;
+         
+          }
+
+          .rightarm{
+            width: 40px;
+            height: 250px;
+            background-color: purple;
+            border: solid 15px gray;
+            border-radius: 90px;
+            position: relative;
+            left: 150px;
+          }
+
+          .leftarm{
+            width: 40px;
+            height: 250px;
+            background-color: purple;
+            border: solid 15px gray;
+            border-radius: 90px;
+            position: relative;
+            right: 40px;
+          }
+
+    
